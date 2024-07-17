@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\api",
+    "\\src\\components",
+    "\\src\\components\\Layout",
+    "\\src\\components\\Plan",
+    "\\src\\components\\Plan\\PlanProcedureItem",
+    "\\src\\components\\Plan\\ProcedureItem"
+  ],
+  "PreviewInSolutionExplorer": false
+}

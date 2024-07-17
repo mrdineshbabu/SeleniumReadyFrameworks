@@ -1,0 +1,74 @@
+-> Loading plugin E:\GitHub\OECAssignment-master\SDET-assignment\interview-automated-tests\RL.AutomatedTests\bin\Debug\net6.0\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin E:\GitHub\OECAssignment-master\SDET-assignment\interview-automated-tests\RL.AutomatedTests\bin\Debug\net6.0\RL.AutomatedTests.dll
+-> Using specflow.json
+Given I'm on the start page
+-> done: PlanSteps.ImOnTheStartPage() (0.5s)
+When I click on start
+-> done: PlanSteps.IClickOnStart() (0.6s)
+Then I'm on the plan page
+-> done: PlanSteps.ImOnThePlanPage() (10.0s)
+When I click on the procedure "Front Seat Control Switch - Removal and Installation - Front Seats"
+-> done: PlanSteps.WhenIClickOnTheProcedure("Front Seat Contro...") (0.2s)
+Then I should see the selected procedure under the added to plan section
+-> done: PlanSteps.ThenIShouldSeeTheSelectedProcedureUnderTheAddedToPlanSection() (0.0s)
+When I click on the procedure "Specifications - Specifications - Suspension System - General Information"
+-> done: PlanSteps.WhenIClickOnTheProcedure("Specifications - ...") (0.2s)
+Then I should see the selected procedure under the added to plan section
+-> done: PlanSteps.ThenIShouldSeeTheSelectedProcedureUnderTheAddedToPlanSection() (0.0s)
+When I assign the procedure "Front Seat Control Switch - Removal and Installation - Front Seats" to "Nick Morrison"
+-> done: PlanSteps.WhenIAssignTheProcedureTo("Front Seat Contro...", "Nick Morrison") (0.3s)
+Then I should see "Nick Morrison" under the procedure "Front Seat Control Switch - Removal and Installation - Front Seats"
+-> done: PlanSteps.ThenIShouldSeeUnderTheProcedure("Nick Morrison", "Front Seat Contro...") (0.1s)
+When I assign the procedure "Specifications - Specifications - Suspension System - General Information" to "Nick Morrison"
+-> done: PlanSteps.WhenIAssignTheProcedureTo("Specifications - ...", "Nick Morrison") (0.2s)
+Then I should see "Nick Morrison" under the procedure "Specifications - Specifications - Suspension System - General Information"
+-> done: PlanSteps.ThenIShouldSeeUnderTheProcedure("Nick Morrison", "Specifications - ...") (0.1s)
+When I assign the procedure "Specifications - Specifications - Suspension System - General Information" to "Tony Bidner"
+-> done: PlanSteps.WhenIAssignTheProcedureTo("Specifications - ...", "Tony Bidner") (0.2s)
+Then I should see "Nick Morrison" under the procedure "Specifications - Specifications - Suspension System - General Information"
+-> done: PlanSteps.ThenIShouldSeeUnderTheProcedure("Nick Morrison", "Specifications - ...") (0.1s)
+When I refresh the page
+-> done: PlanSteps.WhenIRefreshThePage() (0.1s)
+Then I should see "Nick Morrison" under the procedure "Front Seat Control Switch - Removal and Installation - Front Seats" after refresh
+-> error: Assert.Fail failed. Selected user is not assigned to the procedure after refresh (0.1s)
+Then I should see "Nick Morrison" under the procedure "Specifications - Specifications - Suspension System - General Information" after refresh
+-> skipped because of previous errors
+Then I should see "Nick Morrison" under the procedure "Specifications - Specifications - Suspension System - General Information" after refresh
+-> skipped because of previous errors
+
+
+TestContext Messages:
+Given I'm on the start page
+-> done: PlanSteps.ImOnTheStartPage() (0.5s)
+When I click on start
+-> done: PlanSteps.IClickOnStart() (0.6s)
+Then I'm on the plan page
+-> done: PlanSteps.ImOnThePlanPage() (10.0s)
+When I click on the procedure "Front Seat Control Switch - Removal and Installation - Front Seats"
+-> done: PlanSteps.WhenIClickOnTheProcedure("Front Seat Contro...") (0.2s)
+Then I should see the selected procedure under the added to plan section
+-> done: PlanSteps.ThenIShouldSeeTheSelectedProcedureUnderTheAddedToPlanSection() (0.0s)
+When I click on the procedure "Specifications - Specifications - Suspension System - General Information"
+-> done: PlanSteps.WhenIClickOnTheProcedure("Specifications - ...") (0.2s)
+Then I should see the selected procedure under the added to plan section
+-> done: PlanSteps.ThenIShouldSeeTheSelectedProcedureUnderTheAddedToPlanSection() (0.0s)
+When I assign the procedure "Front Seat Control Switch - Removal and Installation - Front Seats" to "Nick Morrison"
+-> done: PlanSteps.WhenIAssignTheProcedureTo("Front Seat Contro...", "Nick Morrison") (0.3s)
+Then I should see "Nick Morrison" under the procedure "Front Seat Control Switch - Removal and Installation - Front Seats"
+-> done: PlanSteps.ThenIShouldSeeUnderTheProcedure("Nick Morrison", "Front Seat Contro...") (0.1s)
+When I assign the procedure "Specifications - Specifications - Suspension System - General Information" to "Nick Morrison"
+-> done: PlanSteps.WhenIAssignTheProcedureTo("Specifications - ...", "Nick Morrison") (0.2s)
+Then I should see "Nick Morrison" under the procedure "Specifications - Specifications - Suspension System - General Information"
+-> done: PlanSteps.ThenIShouldSeeUnderTheProcedure("Nick Morrison", "Specifications - ...") (0.1s)
+When I assign the procedure "Specifications - Specifications - Suspension System - General Information" to "Tony Bidner"
+-> done: PlanSteps.WhenIAssignTheProcedureTo("Specifications - ...", "Tony Bidner") (0.2s)
+Then I should see "Nick Morrison" under the procedure "Specifications - Specifications - Suspension System - General Information"
+-> done: PlanSteps.ThenIShouldSeeUnderTheProcedure("Nick Morrison", "Specifications - ...") (0.1s)
+When I refresh the page
+-> done: PlanSteps.WhenIRefreshThePage() (0.1s)
+Then I should see "Nick Morrison" under the procedure "Front Seat Control Switch - Removal and Installation - Front Seats" after refresh
+-> error: Assert.Fail failed. Selected user is not assigned to the procedure after refresh (0.1s)
+Then I should see "Nick Morrison" under the procedure "Specifications - Specifications - Suspension System - General Information" after refresh
+-> skipped because of previous errors
+Then I should see "Nick Morrison" under the procedure "Specifications - Specifications - Suspension System - General Information" after refresh
+-> skipped because of previous errors
